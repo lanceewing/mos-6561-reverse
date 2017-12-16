@@ -74,8 +74,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(90,730)" to="(140,730)"/>
     <wire from="(2260,180)" to="(2260,230)"/>
     <wire from="(940,60)" to="(940,90)"/>
-    <wire from="(100,380)" to="(340,380)"/>
     <wire from="(2070,150)" to="(2120,150)"/>
+    <wire from="(100,380)" to="(340,380)"/>
     <wire from="(2620,520)" to="(2620,700)"/>
     <wire from="(680,520)" to="(680,550)"/>
     <wire from="(520,520)" to="(620,520)"/>
@@ -429,11 +429,299 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(2070,520)" to="(2100,520)"/>
     <wire from="(2710,500)" to="(2710,520)"/>
     <wire from="(360,400)" to="(360,650)"/>
+    <comp loc="(2360,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1910,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B5"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp loc="(2470,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(300,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="1/2 LINE"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(2070,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B6'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(300,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1210,250)" name="NOR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(1390,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(730,440)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(420,550)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
     <comp lib="1" loc="(2730,440)" name="NAND Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="2"/>
     </comp>
+    <comp loc="(2730,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp loc="(1600,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2520,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2780,540)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(940,550)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(470,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(680,550)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2070,550)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2120,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(90,380)" name="Clock">
+      <a name="label" val="F1"/>
+    </comp>
+    <comp loc="(2580,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1910,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1040,540)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(730,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1860,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2520,540)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(940,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp loc="(1970,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(520,540)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp loc="(250,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1600,440)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(420,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp loc="(1710,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(250,440)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2470,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(250,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(2520,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B7"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2120,440)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(100,330)" name="NOT Gate">
+      <a name="label" val="F2"/>
+    </comp>
     <comp lib="1" loc="(2680,550)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp loc="(990,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1810,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B5'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(200,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="1/2 LINE'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1860,440)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2680,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1550,550)" name="OR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(90,700)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="X!=0,35"/>
+    </comp>
+    <comp lib="1" loc="(2470,440)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2070,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(780,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B1"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp loc="(360,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp loc="(2120,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp loc="(1450,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(1650,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B4"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp loc="(2840,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp loc="(1340,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1910,540)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2730,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1340,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1390,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B3"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1390,540)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(2420,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B7'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(140,260)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(1040,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B2"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2420,550)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(520,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B0"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp loc="(580,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(420,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B0'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(2780,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B8"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1600,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1230,300)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(1810,550)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp loc="(840,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(140,570)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(780,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(90,410)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="RESET"/>
+    </comp>
+    <comp loc="(730,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(2360,300)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(2170,540)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(200,550)" name="AND Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -442,10 +730,71 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="B4'"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp loc="(1710,400)" name="Pass Transistor 2">
+    <comp loc="(1100,400)" name="Pass Transistor 2">
       <a name="facing" val="south"/>
     </comp>
-    <comp lib="1" loc="(680,550)" name="AND Gate">
+    <comp lib="1" loc="(1340,440)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp loc="(2230,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(940,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B2'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp loc="(1860,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1550,90)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(470,440)" name="NAND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(2340,250)" name="NOR Gate">
+      <a name="inputs" val="4"/>
+    </comp>
+    <comp lib="1" loc="(780,540)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(300,540)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="0" loc="(1290,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B3'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(2680,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B8'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp loc="(1230,400)" name="Pass Transistor 2">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(90,730)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="X=0"/>
+    </comp>
+    <comp lib="1" loc="(990,230)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp loc="(470,310)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(680,60)" name="Probe">
+      <a name="facing" val="south"/>
+      <a name="label" val="B1'"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="1" loc="(1290,550)" name="AND Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="2"/>
     </comp>
@@ -454,362 +803,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="B6"/>
       <a name="labelloc" val="north"/>
     </comp>
-    <comp lib="1" loc="(730,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(200,550)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1340,440)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2070,550)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2680,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(100,330)" name="NOT Gate">
-      <a name="label" val="F2"/>
-    </comp>
-    <comp loc="(1600,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp loc="(250,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1550,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1910,540)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(2780,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B8"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(990,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2470,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(470,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp loc="(990,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(420,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(1040,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B2"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2120,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(90,380)" name="Clock">
-      <a name="label" val="F1"/>
-    </comp>
-    <comp loc="(2840,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1550,550)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1860,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(2420,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B7'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2470,440)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2780,540)" name="NAND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp loc="(2360,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(90,700)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="X!=0,35"/>
-    </comp>
-    <comp lib="1" loc="(1910,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(250,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(780,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B1"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp loc="(1970,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(250,440)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp loc="(2580,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(300,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="1/2 LINE"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1290,550)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
     <comp lib="1" loc="(1650,540)" name="NAND Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(1390,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B3"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(1650,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B4"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2520,540)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp loc="(360,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1600,440)" name="NAND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp loc="(1230,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(1910,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B5"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1390,540)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1230,300)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1040,540)" name="NAND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp loc="(1100,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp loc="(840,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp loc="(2230,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(2070,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B6'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(1810,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B5'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(520,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B0"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp loc="(2120,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2360,300)" name="NOT Gate">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="0" loc="(1290,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B3'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(780,540)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp loc="(580,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(1810,550)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(90,410)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="RESET"/>
-    </comp>
-    <comp lib="0" loc="(940,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B2'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(730,440)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(520,540)" name="NAND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(940,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2730,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp loc="(1860,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2340,250)" name="NOR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="0" loc="(680,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B1'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1600,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1860,440)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2070,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(1340,230)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp loc="(1340,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(300,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(2520,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B7"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2170,540)" name="NAND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(940,550)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(1210,250)" name="NOR Gate">
-      <a name="inputs" val="4"/>
-    </comp>
-    <comp lib="1" loc="(300,540)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(780,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(2680,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B8'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp loc="(470,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp loc="(730,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2120,440)" name="NAND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(2520,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp loc="(1450,400)" name="Pass Transistor 2">
-      <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(470,440)" name="NAND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(200,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="1/2 LINE'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
     <comp lib="1" loc="(990,440)" name="NAND Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(420,550)" name="OR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="0" loc="(90,730)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="X=0"/>
-    </comp>
-    <comp lib="1" loc="(1390,90)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(2420,550)" name="AND Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp loc="(2730,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(140,260)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(140,570)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(420,60)" name="Probe">
-      <a name="facing" val="south"/>
-      <a name="label" val="B0'"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp loc="(2470,310)" name="Pass Transistor">
-      <a name="facing" val="north"/>
     </comp>
   </circuit>
   <circuit name="Pass Transistor">
@@ -845,22 +845,22 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(210,240)" to="(220,240)"/>
     <wire from="(180,230)" to="(180,260)"/>
     <wire from="(240,150)" to="(240,180)"/>
-    <comp lib="0" loc="(160,230)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
     <comp lib="0" loc="(240,310)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="4" loc="(250,230)" name="Register">
-      <a name="width" val="1"/>
-    </comp>
     <comp lib="0" loc="(240,150)" name="Pin">
       <a name="facing" val="south"/>
       <a name="labelloc" val="east"/>
     </comp>
+    <comp lib="0" loc="(160,230)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
     <comp lib="0" loc="(210,240)" name="Constant"/>
+    <comp lib="4" loc="(250,230)" name="Register">
+      <a name="width" val="1"/>
+    </comp>
   </circuit>
   <circuit name="Pass Transistor 2">
     <a name="circuit" val="Pass Transistor 2"/>
@@ -898,24 +898,6 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(350,330)" to="(350,360)"/>
     <wire from="(370,210)" to="(410,210)"/>
     <wire from="(410,210)" to="(410,330)"/>
-    <comp lib="0" loc="(240,210)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
-    <comp lib="4" loc="(370,210)" name="D Flip-Flop"/>
-    <comp lib="0" loc="(360,90)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="label" val="IN"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="0" loc="(480,280)" name="Pin">
-      <a name="facing" val="west"/>
-      <a name="tristate" val="false"/>
-      <a name="label" val="PRESET"/>
-      <a name="labelloc" val="east"/>
-    </comp>
-    <comp lib="0" loc="(350,250)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
     <comp lib="0" loc="(350,360)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
@@ -926,6 +908,24 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="west"/>
       <a name="tristate" val="false"/>
       <a name="label" val="CLEAR"/>
+      <a name="labelloc" val="east"/>
+    </comp>
+    <comp lib="4" loc="(370,210)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(240,210)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="0" loc="(350,250)" name="Constant">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="0" loc="(360,90)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="IN"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(480,280)" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="tristate" val="false"/>
+      <a name="label" val="PRESET"/>
       <a name="labelloc" val="east"/>
     </comp>
   </circuit>
