@@ -115,8 +115,38 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(560,90)" to="(560,660)"/>
     <wire from="(640,450)" to="(640,500)"/>
     <wire from="(530,680)" to="(540,680)"/>
-    <comp loc="(600,150)" name="Pass Transistor">
-      <a name="facing" val="south"/>
+    <comp lib="1" loc="(730,680)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp loc="(700,220)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(700,170)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(660,400)" name="AND Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
+    </comp>
+    <comp lib="1" loc="(1230,600)" name="NOT Gate">
+      <a name="facing" val="west"/>
+      <a name="size" val="20"/>
+      <a name="label" val="F2"/>
+    </comp>
+    <comp lib="0" loc="(1230,700)" name="Clock">
+      <a name="facing" val="west"/>
+      <a name="label" val="F1"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="6" loc="(826,566)" name="Text">
+      <a name="text" val="MID F1"/>
+    </comp>
+    <comp lib="1" loc="(730,610)" name="NOT Gate">
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(750,390)" name="NOR Gate">
+      <a name="facing" val="north"/>
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(910,480)" name="Pin">
       <a name="facing" val="west"/>
@@ -124,56 +154,32 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="label" val="INCREMENT"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="1" loc="(1230,600)" name="NOT Gate">
-      <a name="facing" val="west"/>
-      <a name="size" val="20"/>
-      <a name="label" val="F2"/>
+    <comp lib="6" loc="(604,704)" name="Text">
+      <a name="text" val="LOAD LATCH"/>
     </comp>
-    <comp loc="(700,220)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="0" loc="(1230,700)" name="Clock">
-      <a name="facing" val="west"/>
-      <a name="label" val="F1"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="1" loc="(660,400)" name="AND Gate">
+    <comp lib="1" loc="(700,280)" name="NOR Gate">
       <a name="facing" val="north"/>
       <a name="inputs" val="2"/>
     </comp>
     <comp loc="(560,700)" name="Pass Transistor">
       <a name="facing" val="south"/>
     </comp>
+    <comp loc="(730,520)" name="Pass Transistor">
+      <a name="facing" val="north"/>
+    </comp>
     <comp lib="0" loc="(730,880)" name="Ground"/>
-    <comp loc="(680,680)" name="Pass Transistor">
+    <comp lib="6" loc="(777,698)" name="Text">
+      <a name="text" val="D LATCH"/>
+    </comp>
+    <comp lib="6" loc="(789,835)" name="Text">
+      <a name="text" val="CLEAR LATCH"/>
+    </comp>
+    <comp loc="(600,150)" name="Pass Transistor">
       <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(750,390)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(700,280)" name="NOR Gate">
-      <a name="facing" val="north"/>
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(730,610)" name="NOT Gate">
-      <a name="facing" val="north"/>
     </comp>
     <comp lib="0" loc="(730,850)" name="Transistor">
       <a name="type" val="n"/>
       <a name="facing" val="south"/>
-    </comp>
-    <comp lib="1" loc="(730,680)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp loc="(730,520)" name="Pass Transistor">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="1" loc="(700,170)" name="NOT Gate">
-      <a name="facing" val="north"/>
-    </comp>
-    <comp lib="6" loc="(826,566)" name="Text">
-      <a name="text" val="MID F1"/>
     </comp>
     <comp lib="6" loc="(482,663)" name="Text">
       <a name="text" val="CDC LAST VALUE F1"/>
@@ -182,6 +188,12 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="north"/>
       <a name="label" val="VSYNC"/>
       <a name="labelloc" val="south"/>
+    </comp>
+    <comp lib="6" loc="(674,545)" name="Text">
+      <a name="text" val="LOAD COUNTER"/>
+    </comp>
+    <comp loc="(680,680)" name="Pass Transistor">
+      <a name="facing" val="south"/>
     </comp>
   </circuit>
   <circuit name="Pass Transistor">
@@ -221,16 +233,16 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
       <a name="facing" val="south"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="0" loc="(160,230)" name="Pin">
-      <a name="tristate" val="false"/>
+    <comp lib="4" loc="(250,230)" name="Register">
+      <a name="width" val="1"/>
     </comp>
     <comp lib="0" loc="(240,310)" name="Pin">
       <a name="facing" val="north"/>
       <a name="output" val="true"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="4" loc="(250,230)" name="Register">
-      <a name="width" val="1"/>
+    <comp lib="0" loc="(160,230)" name="Pin">
+      <a name="tristate" val="false"/>
     </comp>
     <comp lib="0" loc="(210,240)" name="Constant"/>
   </circuit>
@@ -270,16 +282,19 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(350,330)" to="(350,360)"/>
     <wire from="(370,210)" to="(410,210)"/>
     <wire from="(410,210)" to="(410,330)"/>
-    <comp lib="0" loc="(350,250)" name="Constant">
-      <a name="facing" val="north"/>
-    </comp>
+    <comp lib="4" loc="(370,210)" name="D Flip-Flop"/>
     <comp lib="0" loc="(480,280)" name="Pin">
       <a name="facing" val="west"/>
       <a name="tristate" val="false"/>
       <a name="label" val="PRESET"/>
       <a name="labelloc" val="east"/>
     </comp>
-    <comp lib="4" loc="(370,210)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(350,360)" name="Pin">
+      <a name="facing" val="north"/>
+      <a name="output" val="true"/>
+      <a name="label" val="OUT"/>
+      <a name="labelloc" val="south"/>
+    </comp>
     <comp lib="0" loc="(360,90)" name="Pin">
       <a name="facing" val="south"/>
       <a name="label" val="IN"/>
@@ -294,11 +309,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(240,210)" name="Pin">
       <a name="tristate" val="false"/>
     </comp>
-    <comp lib="0" loc="(350,360)" name="Pin">
+    <comp lib="0" loc="(350,250)" name="Constant">
       <a name="facing" val="north"/>
-      <a name="output" val="true"/>
-      <a name="label" val="OUT"/>
-      <a name="labelloc" val="south"/>
     </comp>
   </circuit>
   <circuit name="Pass Transistor 3">
@@ -349,21 +361,8 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(230,370)" to="(240,370)"/>
     <wire from="(360,90)" to="(360,150)"/>
     <wire from="(340,240)" to="(340,300)"/>
-    <comp lib="0" loc="(360,90)" name="Pin">
-      <a name="facing" val="south"/>
-      <a name="label" val="IN"/>
-      <a name="labelloc" val="north"/>
-    </comp>
-    <comp lib="4" loc="(370,210)" name="D Flip-Flop"/>
-    <comp lib="1" loc="(260,300)" name="Controlled Buffer"/>
-    <comp lib="0" loc="(240,210)" name="Pin">
-      <a name="tristate" val="false"/>
-    </comp>
     <comp lib="1" loc="(260,370)" name="Controlled Buffer">
       <a name="control" val="left"/>
-    </comp>
-    <comp lib="1" loc="(200,350)" name="NOT Gate">
-      <a name="facing" val="south"/>
     </comp>
     <comp lib="0" loc="(180,300)" name="Pin">
       <a name="label" val="SET"/>
@@ -378,5 +377,18 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <comp lib="0" loc="(350,250)" name="Constant">
       <a name="facing" val="north"/>
     </comp>
+    <comp lib="4" loc="(370,210)" name="D Flip-Flop"/>
+    <comp lib="0" loc="(360,90)" name="Pin">
+      <a name="facing" val="south"/>
+      <a name="label" val="IN"/>
+      <a name="labelloc" val="north"/>
+    </comp>
+    <comp lib="0" loc="(240,210)" name="Pin">
+      <a name="tristate" val="false"/>
+    </comp>
+    <comp lib="1" loc="(200,350)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(260,300)" name="Controlled Buffer"/>
   </circuit>
 </project>
