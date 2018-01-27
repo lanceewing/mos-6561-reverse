@@ -60,10 +60,10 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <a name="clabelup" val="east"/>
     <a name="clabelfont" val="SansSerif plain 12"/>
     <wire from="(1070,470)" to="(1070,490)"/>
-    <wire from="(740,440)" to="(740,570)"/>
     <wire from="(450,370)" to="(950,370)"/>
     <wire from="(70,480)" to="(250,480)"/>
     <wire from="(510,430)" to="(510,440)"/>
+    <wire from="(780,440)" to="(780,570)"/>
     <wire from="(480,290)" to="(970,290)"/>
     <wire from="(750,100)" to="(790,100)"/>
     <wire from="(480,140)" to="(480,160)"/>
@@ -121,13 +121,13 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(480,140)" to="(520,140)"/>
     <wire from="(570,400)" to="(570,440)"/>
     <wire from="(840,440)" to="(860,440)"/>
+    <wire from="(780,440)" to="(800,440)"/>
     <wire from="(1070,220)" to="(1070,270)"/>
     <wire from="(950,250)" to="(970,250)"/>
     <wire from="(1050,150)" to="(1070,150)"/>
     <wire from="(310,100)" to="(310,260)"/>
     <wire from="(620,440)" to="(640,440)"/>
     <wire from="(720,440)" to="(740,440)"/>
-    <wire from="(740,440)" to="(760,440)"/>
     <wire from="(590,140)" to="(620,140)"/>
     <wire from="(460,160)" to="(480,160)"/>
     <wire from="(700,160)" to="(790,160)"/>
@@ -146,120 +146,120 @@ This file is intended to be loaded by Logisim (http://www.cburch.com/logisim/).
     <wire from="(340,190)" to="(340,240)"/>
     <wire from="(240,160)" to="(380,160)"/>
     <wire from="(360,210)" to="(360,270)"/>
-    <wire from="(790,440)" to="(800,440)"/>
     <wire from="(890,440)" to="(900,440)"/>
     <wire from="(950,200)" to="(950,250)"/>
     <wire from="(1050,270)" to="(1070,270)"/>
     <wire from="(670,440)" to="(680,440)"/>
+    <wire from="(770,440)" to="(780,440)"/>
     <wire from="(570,440)" to="(580,440)"/>
-    <comp loc="(940,440)" name="Pass Transistor"/>
     <comp loc="(190,260)" name="Pass Transistor"/>
-    <comp lib="1" loc="(300,260)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(870,130)" name="NOR Gate">
+    <comp lib="1" loc="(460,290)" name="NOR Gate">
       <a name="size" val="70"/>
-      <a name="inputs" val="3"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(560,70)" name="NOT Gate"/>
-    <comp loc="(840,440)" name="Pass Transistor"/>
-    <comp loc="(620,440)" name="Pass Transistor"/>
-    <comp loc="(720,440)" name="Pass Transistor"/>
+    <comp lib="6" loc="(573,336)" name="Text">
+      <a name="text" val="WITHIN THE MATRIX"/>
+    </comp>
+    <comp lib="0" loc="(780,570)" name="Probe">
+      <a name="facing" val="north"/>
+      <a name="label" val="BUS AVAILABLE"/>
+      <a name="labelloc" val="south"/>
+    </comp>
     <comp lib="0" loc="(70,520)" name="Clock">
       <a name="label" val="F1"/>
     </comp>
-    <comp lib="0" loc="(70,480)" name="Clock">
-      <a name="label" val="F2"/>
+    <comp loc="(620,440)" name="Pass Transistor"/>
+    <comp lib="1" loc="(700,160)" name="NOR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="2"/>
     </comp>
-    <comp loc="(270,260)" name="Pass Transistor"/>
+    <comp lib="1" loc="(670,440)" name="NOT Gate"/>
+    <comp lib="0" loc="(240,160)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="VERT CELL CNTR LAST VALUE"/>
+    </comp>
+    <comp loc="(270,310)" name="Pass Transistor"/>
     <comp lib="1" loc="(1050,270)" name="NOR Gate">
       <a name="size" val="70"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="0" loc="(140,260)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="SX COMPARE"/>
-    </comp>
-    <comp lib="1" loc="(460,160)" name="NOR Gate">
-      <a name="size" val="70"/>
-      <a name="inputs" val="3"/>
-    </comp>
-    <comp lib="1" loc="(1050,420)" name="NOR Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(670,440)" name="NOT Gate"/>
     <comp lib="0" loc="(1070,490)" name="Probe">
       <a name="facing" val="north"/>
       <a name="label" val="WITHIN MATRIX'"/>
       <a name="labelloc" val="south"/>
     </comp>
-    <comp lib="1" loc="(220,260)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(700,160)" name="NOR Gate">
-      <a name="size" val="70"/>
+    <comp lib="1" loc="(570,120)" name="AND Gate">
       <a name="inputs" val="2"/>
     </comp>
-    <comp loc="(270,310)" name="Pass Transistor"/>
-    <comp lib="1" loc="(1070,470)" name="NOT Gate">
-      <a name="facing" val="south"/>
+    <comp lib="1" loc="(1050,420)" name="NOR Gate">
+      <a name="inputs" val="2"/>
     </comp>
     <comp lib="0" loc="(240,130)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="LAST LINE"/>
     </comp>
-    <comp lib="1" loc="(220,310)" name="NOT Gate">
-      <a name="size" val="20"/>
-    </comp>
-    <comp lib="1" loc="(980,440)" name="NOT Gate"/>
-    <comp lib="0" loc="(240,160)" name="Pin">
-      <a name="tristate" val="false"/>
-      <a name="label" val="VERT CELL CNTR LAST VALUE"/>
-    </comp>
-    <comp lib="0" loc="(450,370)" name="Probe">
-      <a name="label" val="NON MATRIX LINE"/>
-    </comp>
-    <comp lib="1" loc="(570,120)" name="AND Gate">
-      <a name="inputs" val="2"/>
-    </comp>
-    <comp lib="1" loc="(460,290)" name="NOR Gate">
+    <comp lib="1" loc="(1050,150)" name="NOR Gate">
       <a name="size" val="70"/>
       <a name="inputs" val="2"/>
     </comp>
-    <comp lib="1" loc="(890,440)" name="NOT Gate"/>
-    <comp lib="1" loc="(790,440)" name="NOT Gate"/>
-    <comp lib="6" loc="(574,345)" name="Text">
-      <a name="text" val="WITHIN THE MATRIX"/>
+    <comp lib="0" loc="(70,480)" name="Clock">
+      <a name="label" val="F2"/>
     </comp>
-    <comp lib="0" loc="(240,70)" name="Pin">
+    <comp lib="1" loc="(220,310)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp loc="(720,440)" name="Pass Transistor"/>
+    <comp lib="1" loc="(220,260)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="1" loc="(300,260)" name="NOT Gate">
+      <a name="size" val="20"/>
+    </comp>
+    <comp lib="0" loc="(140,260)" name="Pin">
       <a name="tristate" val="false"/>
-      <a name="label" val="START OF NEW LINE'"/>
-    </comp>
-    <comp loc="(510,430)" name="Pass Transistor">
-      <a name="facing" val="south"/>
+      <a name="label" val="SX COMPARE"/>
     </comp>
     <comp lib="0" loc="(140,310)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="SY COMPARE"/>
     </comp>
+    <comp loc="(190,310)" name="Pass Transistor"/>
+    <comp loc="(270,260)" name="Pass Transistor"/>
+    <comp lib="1" loc="(460,160)" name="NOR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="1" loc="(870,130)" name="NOR Gate">
+      <a name="size" val="70"/>
+      <a name="inputs" val="3"/>
+    </comp>
     <comp lib="0" loc="(240,40)" name="Pin">
       <a name="tristate" val="false"/>
       <a name="label" val="HORIZ CELL CNTR LAST VALUE"/>
     </comp>
-    <comp lib="1" loc="(1050,150)" name="NOR Gate">
-      <a name="size" val="70"/>
-      <a name="inputs" val="2"/>
+    <comp lib="1" loc="(560,440)" name="NOT Gate"/>
+    <comp lib="0" loc="(450,370)" name="Probe">
+      <a name="label" val="NON MATRIX LINE"/>
     </comp>
-    <comp loc="(190,310)" name="Pass Transistor"/>
+    <comp loc="(840,440)" name="Pass Transistor"/>
+    <comp loc="(510,430)" name="Pass Transistor">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(890,440)" name="NOT Gate"/>
+    <comp lib="1" loc="(770,440)" name="NOT Gate"/>
+    <comp loc="(940,440)" name="Pass Transistor"/>
+    <comp lib="0" loc="(240,70)" name="Pin">
+      <a name="tristate" val="false"/>
+      <a name="label" val="START OF NEW LINE'"/>
+    </comp>
+    <comp lib="1" loc="(560,70)" name="NOT Gate"/>
+    <comp lib="1" loc="(1070,470)" name="NOT Gate">
+      <a name="facing" val="south"/>
+    </comp>
     <comp lib="1" loc="(300,310)" name="NOT Gate">
       <a name="size" val="20"/>
     </comp>
-    <comp lib="0" loc="(740,570)" name="Probe">
-      <a name="facing" val="north"/>
-      <a name="label" val="UNKNOWN"/>
-      <a name="labelloc" val="south"/>
-    </comp>
-    <comp lib="1" loc="(560,440)" name="NOT Gate"/>
+    <comp lib="1" loc="(980,440)" name="NOT Gate"/>
   </circuit>
   <circuit name="Pass Transistor">
     <a name="circuit" val="Pass Transistor"/>
