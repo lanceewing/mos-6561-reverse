@@ -1,0 +1,234 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project source="2.13.21.6" version="1.0">
+This file is intended to be loaded by Logisim-evolution (https://github.com/reds-heig/logisim-evolution).
+<lib desc="#Wiring" name="0">
+    <tool name="Splitter">
+      <a name="facing" val="south"/>
+      <a name="incoming" val="8"/>
+      <a name="appear" val="center"/>
+      <a name="bit1" val="0"/>
+      <a name="bit2" val="0"/>
+      <a name="bit3" val="0"/>
+      <a name="bit4" val="1"/>
+      <a name="bit5" val="1"/>
+      <a name="bit6" val="1"/>
+      <a name="bit7" val="1"/>
+    </tool>
+    <tool name="Probe">
+      <a name="facing" val="south"/>
+    </tool>
+    <tool name="Tunnel">
+      <a name="facing" val="south"/>
+    </tool>
+    <tool name="Pull Resistor">
+      <a name="facing" val="north"/>
+    </tool>
+    <tool name="Constant">
+      <a name="facing" val="west"/>
+      <a name="value" val="0x0"/>
+    </tool>
+  </lib>
+  <lib desc="#Gates" name="1"/>
+  <lib desc="#Plexers" name="2">
+    <tool name="Multiplexer">
+      <a name="enable" val="false"/>
+    </tool>
+    <tool name="Demultiplexer">
+      <a name="enable" val="false"/>
+    </tool>
+  </lib>
+  <lib desc="#Arithmetic" name="3"/>
+  <lib desc="#Memory" name="4">
+    <tool name="ROM">
+      <a name="contents">addr/data: 8 8
+0
+</a>
+    </tool>
+  </lib>
+  <lib desc="#I/O" name="5"/>
+  <lib desc="#HDL-IP" name="6">
+    <tool name="VHDL Entity">
+      <a name="content">--------------------------------------------------------------------------------
+-- HEIG-VD, institute REDS, 1400 Yverdon-les-Bains
+-- Project :
+-- File    :
+-- Autor   :
+-- Date    :
+--
+--------------------------------------------------------------------------------
+-- Description :
+--
+--------------------------------------------------------------------------------
+
+library ieee;
+  use ieee.std_logic_1164.all;
+  --use ieee.numeric_std.all;
+
+entity VHDL_Component is
+  port(
+  ------------------------------------------------------------------------------
+  --Insert input ports below
+    horloge_i  : in  std_logic;                    -- input bit example
+    val_i      : in  std_logic_vector(3 downto 0); -- input vector example
+  ------------------------------------------------------------------------------
+  --Insert output ports below
+    max_o      : out std_logic;                    -- output bit example
+    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example
+    );
+end VHDL_Component;
+
+--------------------------------------------------------------------------------
+--Complete your VHDL description below
+architecture type_architecture of VHDL_Component is
+
+
+begin
+
+
+end type_architecture;
+</a>
+    </tool>
+  </lib>
+  <lib desc="#TCL" name="7">
+    <tool name="TclGeneric">
+      <a name="content">library ieee;
+use ieee.std_logic_1164.all;
+
+entity TCL_Generic is
+  port(
+    --Insert input ports below
+    horloge_i  : in  std_logic;                    -- input bit example
+    val_i      : in  std_logic_vector(3 downto 0); -- input vector example
+
+	  --Insert output ports below
+    max_o      : out std_logic;                    -- output bit example
+    cpt_o      : out std_logic_Vector(3 downto 0)  -- output vector example
+  );
+end TCL_Generic;
+</a>
+    </tool>
+  </lib>
+  <lib desc="#Base" name="8">
+    <tool name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+  </lib>
+  <lib desc="#BFH-Praktika" name="9"/>
+  <lib desc="#CS3410-Components" name="10"/>
+  <main name="main"/>
+  <options>
+    <a name="gateUndefined" val="ignore"/>
+    <a name="simlimit" val="1000"/>
+    <a name="simrand" val="0"/>
+    <a name="tickmain" val="half_period"/>
+  </options>
+  <mappings>
+    <tool lib="8" map="Button2" name="Menu Tool"/>
+    <tool lib="8" map="Button3" name="Menu Tool"/>
+    <tool lib="8" map="Ctrl Button1" name="Menu Tool"/>
+  </mappings>
+  <toolbar>
+    <tool lib="8" name="Poke Tool"/>
+    <tool lib="8" name="Edit Tool"/>
+    <tool lib="8" name="Text Tool">
+      <a name="text" val=""/>
+      <a name="font" val="SansSerif plain 12"/>
+      <a name="halign" val="center"/>
+      <a name="valign" val="base"/>
+    </tool>
+    <sep/>
+    <tool lib="0" name="Pin"/>
+    <tool lib="0" name="Pin">
+      <a name="facing" val="west"/>
+      <a name="output" val="true"/>
+      <a name="labelloc" val="east"/>
+    </tool>
+    <tool lib="1" name="NOT Gate"/>
+    <tool lib="1" name="AND Gate"/>
+    <tool lib="1" name="OR Gate"/>
+  </toolbar>
+  <circuit name="main">
+    <a name="circuit" val="main"/>
+    <a name="clabel" val=""/>
+    <a name="clabelup" val="east"/>
+    <a name="clabelfont" val="SansSerif bold 16"/>
+    <a name="circuitnamedbox" val="true"/>
+    <a name="circuitvhdlpath" val=""/>
+    <wire from="(410,390)" to="(790,390)"/>
+    <wire from="(990,390)" to="(990,400)"/>
+    <wire from="(740,350)" to="(790,350)"/>
+    <wire from="(790,420)" to="(850,420)"/>
+    <wire from="(790,390)" to="(850,390)"/>
+    <wire from="(910,370)" to="(970,370)"/>
+    <wire from="(910,440)" to="(970,440)"/>
+    <wire from="(560,350)" to="(620,350)"/>
+    <wire from="(990,460)" to="(990,490)"/>
+    <wire from="(790,390)" to="(790,420)"/>
+    <wire from="(80,350)" to="(190,350)"/>
+    <wire from="(250,370)" to="(350,370)"/>
+    <wire from="(740,460)" to="(850,460)"/>
+    <wire from="(990,330)" to="(990,350)"/>
+    <wire from="(990,400)" to="(990,420)"/>
+    <wire from="(440,350)" to="(530,350)"/>
+    <wire from="(740,350)" to="(740,460)"/>
+    <wire from="(650,350)" to="(740,350)"/>
+    <wire from="(60,410)" to="(80,410)"/>
+    <wire from="(820,350)" to="(850,350)"/>
+    <wire from="(80,410)" to="(350,410)"/>
+    <wire from="(140,370)" to="(150,370)"/>
+    <wire from="(180,370)" to="(190,370)"/>
+    <wire from="(180,390)" to="(190,390)"/>
+    <wire from="(140,390)" to="(150,390)"/>
+    <wire from="(990,400)" to="(1060,400)"/>
+    <wire from="(80,350)" to="(80,410)"/>
+    <comp lib="1" loc="(820,350)" name="NOT Gate"/>
+    <comp lib="8" loc="(128,449)" name="Text">
+      <a name="text" val="INCOMING"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="1" loc="(560,350)" name="NOT Gate"/>
+    <comp lib="1" loc="(250,370)" name="NOR Gate">
+      <a name="inputs" val="3"/>
+    </comp>
+    <comp lib="0" loc="(440,350)" name="Pin"/>
+    <comp lib="1" loc="(650,350)" name="NOT Gate"/>
+    <comp lib="1" loc="(180,390)" name="NOT Gate"/>
+    <comp lib="0" loc="(990,420)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="north"/>
+    </comp>
+    <comp lib="1" loc="(180,370)" name="NOT Gate"/>
+    <comp lib="8" loc="(171,506)" name="Text">
+      <a name="text" val="PHASE 1 - READ MEM"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="1" loc="(910,440)" name="NOR Gate"/>
+    <comp lib="1" loc="(910,370)" name="NOR Gate"/>
+    <comp lib="0" loc="(60,410)" name="Pin">
+      <a name="label" val="f1"/>
+    </comp>
+    <comp lib="0" loc="(990,330)" name="Power"/>
+    <comp lib="0" loc="(990,490)" name="Ground"/>
+    <comp lib="8" loc="(186,479)" name="Text">
+      <a name="text" val="PHASE 2 - WRITE (from CPU)"/>
+      <a name="font" val="SansSerif plain 12"/>
+    </comp>
+    <comp lib="0" loc="(1080,300)" name="Pin">
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="0" loc="(140,390)" name="Pin">
+      <a name="label" val="cs"/>
+    </comp>
+    <comp lib="0" loc="(990,390)" name="Transistor">
+      <a name="type" val="n"/>
+      <a name="facing" val="south"/>
+    </comp>
+    <comp lib="1" loc="(410,390)" name="NOR Gate"/>
+    <comp lib="0" loc="(140,370)" name="Pin">
+      <a name="label" val="rw"/>
+    </comp>
+  </circuit>
+</project>
